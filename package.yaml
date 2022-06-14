@@ -24,6 +24,7 @@ dependencies:
 
 library:
   source-dirs: src
+#  dependencies:
 
 executables:
   aaa-exe:
@@ -35,6 +36,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - aaa
+    - servant-util
 
 tests:
   aaa-test:
