@@ -5,23 +5,33 @@
 
 packages:
 - completed:
-    hackage: servant-util-0.3@sha256:120f43fcea412d3751c0b42d057249ccf9f15a182dbda03999c3cec99631f0f0,7527
+    name: text-format
+    version: 0.3.3
+    git: https://github.com/oliverbunting/text-format.git
     pantry-tree:
-      size: 4333
-      sha256: 8b8680942186be195d41674edb9f422a3b10b1bbb52492c14f5b3c707862328a
+      size: 1273
+      sha256: fac733f9363ae03a3df48c151d9ad15cb148fe5c3c407821d7f241b3ad1d00af
+    commit: eded7ae45ae985673fa0902ba622ccd95e66728e
   original:
-    hackage: servant-util-0.3@sha256:120f43fcea412d3751c0b42d057249ccf9f15a182dbda03999c3cec99631f0f0,7527
+    git: https://github.com/oliverbunting/text-format.git
+    commit: eded7ae45ae985673fa0902ba622ccd95e66728e
 - completed:
-    hackage: text-format-0.3.2@sha256:2a3fc17cf87120fcfdbca62a0da59759755549285841cdc1483081c35fb3d115,1814
+    subdir: servant-util
+    name: servant-util
+    version: '0.3'
+    git: https://github.com/marinelli/servant-util.git
     pantry-tree:
-      size: 1029
-      sha256: 2db26ddb77184186e0d5b2b020bdfbeb044c168024767b1fa3691682ca618896
+      size: 4386
+      sha256: c6beac9225d3b5cc1d91176af809e31fac05cdc6b70e2004f63a01ae4021fd4b
+    commit: 29d308821383c41fef3a0a76bd308b6962f6fc82
   original:
-    hackage: text-format-0.3.2@sha256:2a3fc17cf87120fcfdbca62a0da59759755549285841cdc1483081c35fb3d115,1814
+    subdir: servant-util
+    git: https://github.com/marinelli/servant-util.git
+    commit: 29d308821383c41fef3a0a76bd308b6962f6fc82
 snapshots:
 - completed:
-    size: 619152
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/11.yaml
-    sha256: 692668712aa3a6638401ce921cd043f5f9a8b018af9ba13ae350871196b047d6
+    size: 618876
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/6.yaml
+    sha256: fb634b19f31da06684bb07ce02a20c75a3162138f279b388905b03ebd57bb50f
   original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/11.yaml
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/6.yaml
